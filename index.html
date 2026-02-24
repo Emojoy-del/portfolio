@@ -1,156 +1,208 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Joys Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #113280;
-  color: white;
-  line-height: 1.6;
-}
+    <!-- Linking the external css -->
+    <link rel="stylesheet" href="css/styles.css">
 
-/* Hero Section */
-.hero {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to right, #1e293b, #0f172a);
-  text-align: center;
-}
+    <title>Personal Website</title>
+</head>
 
-.hero h1 {
-  font-size: 3rem;
-}
+<body>
+    <!-- Header > Nav > Logo & Menu -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Portfolio.</a>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-.hero p {
-  margin: 10px 0;
-  font-size: 1.2rem;
-  color: #1a5dbb;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background: #3b82f6;
-  color: white;
-  text-decoration: none;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: #2563eb;
-}
-
-/* Sections */
-section {
-  padding: 80px 10%;
-}
-
-h2 {
-  margin-bottom: 20px;
-  font-size: 2rem;
-}
-
-/* Projects */
-.projects {
-  background: #1ab35f;
-}
-
-.project-card {
-  background: #0b3e85;
-  padding: 20px;
-  margin: 15px 0;
-  border-radius: 8px;
-  transition: 0.3s;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-  background: #475569;
-}
-
-/* Contact */
-.contact {
-  text-align: center;
-}
-    </style>
-
-
-<head>
-    <body>
-    <nav>
-        <div>
-            <h1>Joys portfolio</h1>
-            <ul>
-
-             <li><a href="About">About</a><li>
-              <li><a href="project">project</a><li>
-                <li><a href="contact">contact</a><li>
-
-            </ul>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="left">
+            <div class="content">
+                <h2>Hi, I'm <span class="stroke-text">Joe Doe</span></h2>
+                <p>Web Designer & Developer</p>
+                <p>I am a web designer and developer. I have a passion for web design and love to create for web and
+                    mobile devices.</p>
+                <a href="#" class="btn">Hire Me</a>
+            </div>
         </div>
-    </nav>
-   <section id="about">
-    <div>
-        <img
-        src=""
-        alt=""
-    </div>
-      <img src="assets/profile" alt="profile picture">
-        <h1>Hello am joy</h1>
-        <p>I am passionate about building websites and learning new technologies.</p>
-        <P> i specialize in building responsive and user-friendly websites using html,css and javascript.
-        <P>Currently i am improving my skills in git,github .I enjoy solving problems ,learning new technologies,and working on projects that improve user experience.</P>
-
+        <div class="right">
+            <div class="image">
+                <img src="images/profile.jpg" alt="name">
+            </div>
+            <div class="card">
+                <div class="rotate-45"></div>
+            </div>
+            <div class="card">
+                <div class="rotate-minus-45"></div>
+            </div>
+        </div>
     </section>
 
+    <!-- projects Section -->
     <section id="projects">
-        <h2>My Projects</h2>
-        <div>
-            <h2>📚 study tips websites</h2>
-                A website that helps students improve their study habits.
-                Built using html and css with responsive layout.
-            </P>
+        <div class="header">
+            <h1>My Projects</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatum ea quidem quibusdam accusamus
+                sint aperiam harum unde dolorem assumenda!</p>
         </div>
-       <div>
-        <h3>⛅Weather app design</h3>
-        <P> A simple weather interferance layout created using html and css for practice in ul design.</P>
-       </div> 
-       <div>
-        <h4>🎓school results portal</h4>
-        <P> A results portal interface where students can view grades and academic performance.
-            Created to practice from inputs and structured layouts.
-        </P>
-       </div>
-        
+        <div class="projects-list">
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/project.jpg" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h2 class="project-title">Project 1</h2>
+                    <p class="project-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae autem
+                        aperiam qui aliquam
+                        libero!</p>
+                    <div class="status">
+                        <a href="#" class="view-more-btn">View Project</a>
+                        <span class="count">200+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/project.jpg" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h2 class="project-title">Project 1</h2>
+                    <p class="project-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae autem
+                        aperiam qui aliquam
+                        libero!</p>
+                    <div class="status">
+                        <a href="#" class="view-more-btn">View Project</a>
+                        <span class="count">200+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/project.jpg" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h2 class="project-title">Project 1</h2>
+                    <p class="project-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae autem
+                        aperiam qui aliquam
+                        libero!</p>
+                    <div class="status">
+                        <a href="#" class="view-more-btn">View Project</a>
+                        <span class="count">200+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/project.jpg" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h2 class="project-title">Project 1</h2>
+                    <p class="project-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae autem
+                        aperiam qui aliquam
+                        libero!</p>
+                    <div class="status">
+                        <a href="#" class="view-more-btn">View Project</a>
+                        <span class="count">200+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/project.jpg" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h2 class="project-title">Project 1</h2>
+                    <p class="project-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae autem
+                        aperiam qui aliquam
+                        libero!</p>
+                    <div class="status">
+                        <a href="#" class="view-more-btn">View Project</a>
+                        <span class="count">200+</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/project.jpg" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h2 class="project-title">Project 1</h2>
+                    <p class="project-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae autem
+                        aperiam qui aliquam
+                        libero!</p>
+                    <div class="status">
+                        <a href="#" class="view-more-btn">View Project</a>
+                        <span class="count">200+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Skills Section -->
+    <!-- <section id="skills">
+        <div class="header">
+            <h1>My Skills</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora illum nam nostrum officiis et
+                doloremque!</p>
+        </div>
+        <div class="skills-list">
+            <div class="skill">
+                <img class="skill-img" src="images/project.jpg" alt="HTML">
+                <h3>HTML5</h3>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>intrested in working together oe have a question ?
-            Feel free to send me a message!<P>
-        </p>
-        📍Location :Nairobi,kenya.
-       <P> 📧Email;joy@gmail.com
+        <div class="background"></div>
+        <div class="contact-form">
+            <h1>Contact Me</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"
+                        placeholder="Enter your message"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn" type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
     </section>
-    <footer>
-        copyright;2026 joy .Buit with 😊using html ,css and javascript.
-    </footer>
-    <style>
-</body>
-</html>
 
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p style="text-align: center;">&copy; 2024 Portfolio. All Rights Reserved. <br> <a
+                    href="https://github.com/adhikareeprayush">Joy Nyambura</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
